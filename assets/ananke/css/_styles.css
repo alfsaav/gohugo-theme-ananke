@@ -18,3 +18,16 @@
 .nested-links a{
   overflow-wrap: break-word;
 }
+
+
+.summary-w_image {
+  border-color: rgba(0, 0, 0, 0.1);
+  background: aliceblue;
+  padding: 16px 20px;
+  border-radius: 8px;
+
+  .nested-copy-line-height{
+    max-height: 200px;
+    overflow: hidden;
+  }
+}
